@@ -1,3 +1,5 @@
+from .secrets import SECRET_KEY
+
 """
 Django settings for project project.
 
@@ -19,8 +21,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-yw_d=5l314zz!_&-!yg(#h3p!k1*ib90*dxlm0brsh!_#g4y%w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
